@@ -1,0 +1,52 @@
+h1 {
+  font-family: "PlayFair", serif;
+}
+
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 3px solid black;
+  position: sticky;
+  top: 0;
+  background-color: white;
+
+}
+
+.navigation {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 32px;
+}
+
+/* Change the link color to #111 (black) on hover */
+a:hover {
+  color: grey;
+  text-decoration: underline;
+  opacity: 0.6;
+}
+
+.logo-container {
+  margin-left: 61px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.small-logo {
+  width: 100px;
+}

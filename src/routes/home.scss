@@ -1,0 +1,93 @@
+.content-logo {
+    display: flex;
+    background-image: url('./../lib/assets/_STA3113_fotoAnsisStarks_1920x1280.png');
+    height: 100vh;
+    background-size: cover;
+}
+
+.logo {
+    position: relative;
+    left: 38.2%;
+    top: 40.1%;
+    width: 470px;
+    height: 160px;
+}
+
+.logo-text {
+    position: relative;
+    left: 39.5%;
+    top: 38%;
+    margin: 0;
+    width: 500px;
+}
+
+.small-logo {
+    width: 100px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid black;
+}
+
+.main-content {
+  border-bottom: 3px solid black;
+    &__logo {
+        margin-left: 61px;
+        width: 758px;
+    }
+}
+
+.logo-container {
+    margin-left: 61px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 32px;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  a:hover {
+    color: grey;
+    text-decoration: underline;
+    opacity: 0.6;
+  }
+
+
+  .main-content {
+    display: flex;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3px solid black;
+  }
+
+  .info-link {
+    margin-left: 80px;
+    margin-top: 0;
+  }
+
+  .link {
+    margin-top: 0;
+  }
