@@ -7,7 +7,7 @@
 	></div>
 
 	<div style="width: 100%;">
-		<img class="logo" src="src/lib/assets/Logo_Dark_Grey_2B2D2C.svg" alt="" />
+		<img class="logo" src='/Logo_Dark_Grey_2B2D2C.svg' alt="" />
 		<h1 class="logo-text">INTERIOR DESIGN STUDIO</h1>
 	</div>
 </div>
@@ -15,7 +15,7 @@
 <div class="content-main">
 	<div class="header">
 		<div class="logo-container">
-			<img class="small-logo" src="src/lib/assets/Logo_Dark_Grey_2B2D2C.svg" alt="" />
+			<img class="small-logo" src='/Logo_Dark_Grey_2B2D2C.svg' alt="" />
 		</div>
 
 		<div>
@@ -28,7 +28,7 @@
 
 	<div class="main-content">
 		<div>
-			<img class="main-content__logo" src="src/lib/assets/_STA3323_fotoAnsisStarks.png" alt="" />
+			<img class="main-content__logo" src='/_STA3323_fotoAnsisStarks.png' alt="" />
 		</div>
 
 		<div class="text-container">

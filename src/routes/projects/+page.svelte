@@ -1,18 +1,19 @@
 <script>
 	import { flip } from 'svelte/animate';
 
+
 	export let images = [
 		{
 			id: '1',
-			path: 'src/lib/assets/_STA3399_fotoAnsisStarks.png'
+			path: '/_STA3399_fotoAnsisStarks.png'
 		},
 		{
 			id: '2',
-			path: 'src/lib/assets/_STA3615_fotoAnsisStarks.png'
+			path: '/_STA3615_fotoAnsisStarks.png'
 		},
 		{
 			id: '3',
-			path: 'src/lib/assets/_STA3771_fotoAnsisStarks.png'
+			path: '/_STA3771_fotoAnsisStarks.png'
 		}
 	];
 	export let imageWidth = '31%';
@@ -44,7 +45,7 @@
 <div class="content-main">
 	<div class="header">
 		<div class="logo-container">
-			<img class="small-logo" src="src/lib/assets/Logo_Dark_Grey_2B2D2C.svg" alt="" />
+			<img class="small-logo" src="/Logo_Dark_Grey_2B2D2C.svg" alt="" />
 			
 			
 		</div>
@@ -138,7 +139,7 @@ margin-top: 59px; display: flex;"
 			element, chanterelle, can be exchanged to go along the brand story.
 		</h3>
 
-		<img style="width: 95%;" src="src/lib/assets/_STA3113_fotoAnsisStarks_1920x1280.png" alt="" />
+		<img style="width: 95%;" src="/_STA3113_fotoAnsisStarks_1920x1280.png" alt="" />
 	</div>
 </div>
 <div class="footer">

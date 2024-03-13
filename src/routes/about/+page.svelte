@@ -1,7 +1,8 @@
+<script></script>
 <div>
 	<div class="header">
 		<div class="logo-container">
-			<img class="small-logo" src="src/lib/assets/Logo_Dark_Grey_2B2D2C.svg" alt="" />
+			<img class="small-logo" src='/Logo_Dark_Grey_2B2D2C.svg' alt="" />
 		</div>
 
 		<div>
