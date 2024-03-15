@@ -1,6 +1,6 @@
 <script>
+	import { ChevronLeftSolid } from 'flowbite-svelte-icons';
 	import { flip } from 'svelte/animate';
-
 
 	export let images = [
 		{
@@ -40,14 +40,16 @@
 		// @ts-ignore
 		setTimeout(() => (document.getElementById(transitioningImage.id).style.opacity = 1), speed);
 	};
+
+	function goHome() {
+		window.location.href = '/';
+	}
 </script>
 
-<div class="content-main">
+<div>
 	<div class="header">
-		<div class="logo-container">
+		<div on:click={goHome} class="logo-container">
 			<img class="small-logo" src="/Logo_Dark_Grey_2B2D2C.svg" alt="" />
-			
-			
 		</div>
 
 		<div>
@@ -76,37 +78,28 @@ margin-top: 59px; display: flex;"
 					/>
 				{/each}
 			</div>
-			<button id="left" on:click={rotateLeft}>
-				<slot name="left-control">
-					<svg width="39px" height="110px" id="svg8" transform={`scale(${controlScale})`}>
-						<g id="layer1" transform="translate(-65.605611,-95.36949)">
-							<path
-								style={`fill:none;stroke:${controlColor};stroke-width:9.865;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1`}
-								d="m 99.785711,100.30199 -23.346628,37.07648 c -7.853858,12.81098 -7.88205,12.81098 0,24.78902 l 23.346628,37.94647"
-								id="path1412"
-							/>
-						</g>
-					</svg>
-				</slot>
-			</button>
-			<button id="right" on:click={rotateRight}>
-				<slot name="right-control">
-					<svg
-						width="39px"
-						height="110px"
-						id="svg8"
-						transform={`rotate(180) scale(${controlScale})`}
-					>
-						<g id="layer1" transform="translate(-65.605611,-95.36949)">
-							<path
-								style={`fill:none;stroke:${controlColor};stroke-width:9.865;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1`}
-								d="m 99.785711,100.30199 -23.346628,37.07648 c -7.853858,12.81098 -7.88205,12.81098 0,24.78902 l 23.346628,37.94647"
-								id="path1412"
-							/>
-						</g>
-					</svg>
-				</slot>
-			</button>
+			<div class="left-circle"></div>
+			<div class="right-circle"></div>
+			<div class="left-arrow">
+				<ChevronLeftSolid id="left" on:click={rotateLeft} style="color: white" size="xl" />
+			</div>
+			<!-- <div class="right-arrow">
+				<ChevronRightSolid  id="right" on:click={rotateRight} style="color: white"   size="xl" />
+			</div> -->
+			<svg
+				style="position: absolute; top:50%; right:0; color: white"
+				xmlns="http://www.w3.org/2000/svg"
+				version="1.1"
+				width="40"
+				height="40"
+			>
+				<path
+					d="M16.5 11.5 L24.5 19.5 L16.5 27.5"
+					stroke-linejoin="round"
+					stroke-linecap="round"
+					style="fill:none; stroke:#ffffff; stroke-width:3px"
+				></path>
+			</svg>
 		</div>
 		<div style="display: flex;">
 			<div>
@@ -165,19 +158,43 @@ margin-top: 59px; display: flex;"
 		width: 100vw;
 	}
 
-	button {
+	.left-arrow {
 		position: absolute;
 		top: 50%;
-		transform: translateY(-50%);
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		background: grey;
+		width: 90px;
+		height: 90px;
+	}
+
+	.left-circle {
+		border: none;
+		background-color: gray;
+		position: absolute;
+		top: 50%;
+		width: 75px;
+		height: 75px;
+		opacity: 0.7;
+		border-radius: 50%;
+	}
+
+	.right-circle {
+		border: none;
+		background-color: gray;
+		position: absolute;
+		top: 50%;
+		right: 0;
+		width: 75px;
+		height: 75px;
+		opacity: 0.7;
+		border-radius: 50%;
+	}
+
+	.right-arrow {
+		position: absolute;
+		top: 50%;
+		right: 0;
 		border: none;
 		width: 90px;
 		height: 90px;
-		opacity: 0.7;
-		border-radius: 50%;
 	}
 
 	button:focus {

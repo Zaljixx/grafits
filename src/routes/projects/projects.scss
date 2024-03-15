@@ -187,6 +187,9 @@
   display: flex;
   justify-content: space-between;
   border-bottom: 3px solid black;
+  top: 0;
+  position: sticky;
+  background-color: rgb(245, 245, 245)
 }
 
 .main-content {
@@ -201,6 +204,13 @@ border-bottom: 3px solid black;
   margin-left: 61px;
   margin-top: 24px;
   margin-bottom: 24px;
+  cursor: pointer;
+}
+
+.logo-container:focus {
+  background: transparent;
+  outline: none; /* Remove default focus outline */
+  border: none; /* Remove border */
 }
 
 .navigation {
@@ -216,11 +226,12 @@ li {
 
 li a {
   display: block;
-  color: black;
+  color: rgba(43, 45, 44, 1);;
   text-align: center;
-  padding: 14px 16px;
+  padding: 20px 16px 0;
   text-decoration: none;
-  font-size: 32px;
+  font-size: 24px;
+  font-family: 'PlayFair', serif !important;
 }
 
 /* Change the link color to #111 (black) on hover */

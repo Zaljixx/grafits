@@ -6,19 +6,12 @@
 }
 
 .logo {
-    position: relative;
-    left: 38.2%;
-    top: 40.1%;
     width: 470px;
     height: 160px;
 }
 
-.logo-text {
-    position: relative;
-    left: 39.5%;
-    top: 38%;
+.logo-text {   
     margin: 0;
-    width: 500px;
 }
 
 .small-logo {
@@ -32,11 +25,35 @@
 }
 
 .main-content {
+  display: flex;
   border-bottom: 3px solid black;
+  &__text {
+    display: flex;
+    margin-left: 32px;
+    flex-direction: column;
+  }
+  
+  &__logo {
+    margin-left: 32px;
+    height: 78vh; /* Default height */
+  }
+
+  @media screen and (min-width: 1920px) {
     &__logo {
-        margin-left: 61px;
-        width: 758px;
+      height: 87vh; /* Height for screens above 1920px width */
     }
+  }
+}
+
+.top-text {
+  width: 36vw;
+}
+
+.bottom-text {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: flex-end;
 }
 
 .logo-container {
@@ -58,11 +75,12 @@
   
   li a {
     display: block;
-    color: black;
+    color: rgba(43, 45, 44, 1);;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 16px 0;
     text-decoration: none;
-    font-size: 32px;
+    font-size: 24px;
+    font-family: 'PlayFair', serif !important;
   }
   
   /* Change the link color to #111 (black) on hover */
@@ -72,22 +90,21 @@
     opacity: 0.6;
   }
 
-
-  .main-content {
-    display: flex;
-  }
-
   .footer {
     display: flex;
     justify-content: space-between;
-    padding-top: 3px solid black;
+    border-top: 1px solid black;
   }
 
   .info-link {
-    margin-left: 80px;
+    margin-left: 32px;
     margin-top: 0;
   }
 
   .link {
     margin-top: 0;
+    font-style: normal;
+    font-weight: 400;
+    color: rgba(43, 45, 44, 1);
+    font-size: 16px;
   }
