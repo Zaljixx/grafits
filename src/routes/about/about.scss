@@ -7,20 +7,12 @@ h1 {
   animation-timeline: scroll();
 }
 
-.animate-to-bigger {
-  animation: bigger-text;
-  animation-timeline: scroll();
-}
-
 @keyframes smaller-text {
   from { transform: scale(1); }
   to { transform: scale(0.3); }
 }
 
-@keyframes bigger-text {
-  from { transform: scale(0.8); }
-  to { transform: scale(1); }
-}
+
 
 
 

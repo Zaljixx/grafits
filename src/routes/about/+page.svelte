@@ -150,7 +150,6 @@
 
 	<div style="margin-left: 64px; width: 61vw;">
 		<p
-			class="animate-to-bigger"
 			style=";font-family: Playfair Display;
 			font-weight: 400;
 			font-style: normal;
