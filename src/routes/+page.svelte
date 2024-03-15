@@ -20,9 +20,9 @@
 	</div>
 </div>
 
-<div class="content-main">
+<div>
 	<div class="header">
-		<div  class="logo-container">
+		<div class="logo-container">
 			<img class="small-logo" src="/Logo_Dark_Grey_2B2D2C.svg" alt="" />
 		</div>
 
