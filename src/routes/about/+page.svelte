@@ -1,6 +1,6 @@
 <script>
 	function goHome() {
-		window.location.href = '/';
+		window.location.href = '/#page-content';
 	}
 </script>
 
@@ -24,14 +24,15 @@
 		>
 			<p
 				class="animate-to-small"
-				style="width: 51%;font-family: Playfair Display;
+				style="width: 51%; font-family: Playfair Display;
 			font-weight: 400;
 			font-style: normal;
-			color: rgba(165, 165, 165, 1);
+			color: #A5A5A5;
 			letter-spacing: 1.5px;
 			font-size: 36px;
 			text-align: end;
-			margin-right: 16px"
+			margin-right: 16px;
+			margin-top: 32px;"
 			>
 				We work interdisciplinary on residential and public projects working closely with clients to
 				create considered spaces
@@ -45,11 +46,11 @@
 				width: 26vw;"
 				>
 					<p
-						style="border-bottom: 2px solid black; letter-spacing: 1.6px;
+						style="border-bottom: 1px solid black; letter-spacing: 1.6px;
 				font-family: Georgia;
 				font-style: italic;
 				font-weight: 400;
-				color: rgba(43, 45, 44, 1);
+				color: #2B2D2C;
 				font-size: 18px;
 				margin-bottom: 0"
 					>
@@ -58,8 +59,8 @@
 					<p
 						style="font-weight: 400;
 				font-style: normal;
-				font-family: sftn;
-				color: rgba(43, 45, 44, 1);
+				font-family: 'IBM Plex Sans', sans-serif;
+				color: #2B2D2C;
 				font-size: 14px;"
 					>
 						We offer: Interior Architecture, Interior Design & Decoration, FFE Procurement, Art
@@ -71,11 +72,11 @@
 				width: 26vw;"
 				>
 					<p
-						style="border-bottom: 2px solid black; letter-spacing: 1.6px;
+						style="border-bottom: 1px solid black; letter-spacing: 1.6px;
 				font-family: Georgia;
 				font-style: italic;
 				font-weight: 400;
-				color: rgba(43, 45, 44, 1);
+				color: #2B2D2C;
 				font-size: 18px;
 				margin-bottom: 0"
 					>
@@ -84,8 +85,8 @@
 					<p
 						style="font-weight: 400;
 				font-style: normal;
-				font-family: sftn;
-				color: rgba(43, 45, 44, 1);
+				font-family: 'IBM Plex Sans', sans-serif;
+				color: #2B2D2C;
 				font-size: 14px;"
 					>
 						During our years of practice we have collaborated with professional carpenters,
@@ -97,11 +98,11 @@
 				<div style="display:flex; margin-right: 48px; gap: 48px">
 					<div style="display: flex; flex-direction: column; width: 26vw;">
 						<p
-							style="border-bottom: 2px solid black; letter-spacing: 1.6px;
+							style="border-bottom: 1px solid black; letter-spacing: 1.6px;
 				font-family: Georgia;
 				font-style: italic;
 				font-weight: 400;
-				color: rgba(43, 45, 44, 1);
+				color: #2B2D2C;
 				font-size: 18px;
 				margin-bottom: 0"
 						>
@@ -110,8 +111,8 @@
 						<p
 							style="font-weight: 400;
 				font-style: normal;
-				font-family: sftn;
-				color: rgba(43, 45, 44, 1);
+				font-family: 'IBM Plex Sans', sans-serif;
+				color: #2B2D2C;
 				font-size: 14px;"
 						>
 							We treat the surrounding environment and existing context with respect and use
@@ -121,11 +122,11 @@
 					</div>
 					<div style="display: flex; flex-direction: column; width: 26vw;">
 						<p
-							style="border-bottom: 2px solid black; letter-spacing: 1.6px;
+							style="border-bottom: 1px solid black; letter-spacing: 1.6px;
 				font-family: Georgia;
 				font-style: italic;
 				font-weight: 400;
-				color: rgba(43, 45, 44, 1);
+				color: #2B2D2C;
 				font-size: 18px;
 				margin-bottom: 0"
 						>
@@ -134,8 +135,8 @@
 						<p
 							style="font-weight: 400;
 				font-style: normal;
-				font-family: sftn;
-				color: rgba(43, 45, 44, 1);
+				font-family: 'IBM Plex Sans', sans-serif;
+				color: #2B2D2C;
 				font-size: 14px;"
 						>
 							We believe a great design has to inspire engagement with space in positive ways,
@@ -153,7 +154,7 @@
 			style=";font-family: Playfair Display;
 			font-weight: 400;
 			font-style: normal;
-			color: rgba(165, 165, 165, 1);
+			color: #A5A5A5;
 			letter-spacing: 1.5px;
 			font-size: 36px;
 			margin-right: 16px"
@@ -163,11 +164,13 @@
 	</div>
 
 	<p
-		style="margin-left: 32px;font-family: Georgia;
+		style="
+		margin-left: 32px;
+		font-family: Georgia;
 	font-style: italic;
 	font-weight: 400;
 	font-size: 20px;
-	color: rgba(43, 45, 44, 1); "
+	color: #2B2D2C; "
 	>
 		Our team
 	</p>
@@ -180,26 +183,28 @@
 			padding-bottom: 1px;
 			font-family: Playfair Display;
 			font-weight: 400;
-			font-size: 18px;color: rgba(43, 45, 44, 1);
+			font-size: 18px;color: #2B2D2C;
 		"
 			>
 				Antra Eglīte
 			</p>
 			<p
 				style="
-	margin-top: 0;
-	font-family: Playfair Display;
-	font-weight: 400;
-	font-size: 14px;color: rgba(43, 45, 44, 1);"
+				margin-top: 0;
+				font-family: Playfair Display;
+				font-weight: 400;
+				font-size: 14px;color: #2B2D2C;"
 			>
 				DIRECTOR
 			</p>
-			<p style="font-weight: 400;
+			<p
+				style="font-weight: 400;
 			font-style: normal;
-			font-family: Playfair Display;
-			color: rgba(43, 45, 44, 1);
+			font-family: 'IBM Plex Sans', sans-serif;
+			color: #2B2D2C;
 			font-size: 12px;
-			width: 80%">
+			width: 80%"
+			>
 				Precision and a keen eye for detail initially comes from her experience as a fashion
 				designer for "Rīgas Modes" and "Filharmonija" which were established fashion institutions in
 				the 80s. This later developed into personal projects creating curtain designs for her
@@ -216,7 +221,7 @@
 			padding-bottom: 1px;
 			font-family: Playfair Display;
 			font-weight: 400;
-			font-size: 18px;color: rgba(43, 45, 44, 1);
+			font-size: 18px;color: #2B2D2C;
 		"
 			>
 				Anete Eglīte
@@ -226,16 +231,18 @@
 			margin-top: 0;
 			font-family: Playfair Display;
 			font-weight: 400;
-			font-size: 14px;color: rgba(43, 45, 44, 1);"
+			font-size: 14px;color: #2B2D2C;"
 			>
 				INTERIOR ARCHITECT
 			</p>
-			<p style="font-weight: 400;
+			<p
+				style="font-weight: 400;
 			font-style: normal;
-			font-family: Playfair Display;
-			color: rgba(43, 45, 44, 1);
+			font-family: 'IBM Plex Sans', sans-serif;
+			color: #2B2D2C;
 			font-size: 12px;
-			width: 80%">
+			width: 80%"
+			>
 				Architecture studies at the Riga Technical University has been a strong milestone in
 				crafting interior projects for 20+ years. With an open-minded approach and a love for travel
 				she creates captivating spaces with profound passion, working on international scale. Her
@@ -251,7 +258,7 @@
 			padding-bottom: 1px;
 			font-family: Playfair Display;
 			font-weight: 400;
-			font-size: 18px;color: rgba(43, 45, 44, 1);
+			font-size: 18px;color: #2B2D2C;
 		"
 			>
 				Agate Eglīte-Drēziņa
@@ -261,16 +268,18 @@
 			margin-top: 0;
 			font-family: Playfair Display;
 			font-weight: 400;
-			font-size: 14px;color: rgba(43, 45, 44, 1);"
+			font-size: 14px;color: #2B2D2C;"
 			>
-			INTERIOR DESIGNER
+				INTERIOR DESIGNER
 			</p>
-			<p style="font-weight: 400;
+			<p
+				style="font-weight: 400;
 			font-style: normal;
-			font-family: Playfair Display;
-			color: rgba(43, 45, 44, 1);
+			font-family: 'IBM Plex Sans', sans-serif;
+			color: #2B2D2C;
 			font-size: 12px;
-			width: 80%">
+			width: 80%"
+			>
 				Prior to her reconnection with the family's design legacy and completion of her Master's
 				studies at the Art Academy of Latvia, she broadened her expertise through diverse
 				professional pursuits, gaining insights and fresh perspectives across multiple industries,
@@ -280,17 +289,26 @@
 	</div>
 	<div class="footer">
 		<div class="info-link">
-			<p style="    font-style: normal;
+			<p
+				style="
 			font-weight: 400;
-			color: rgba(43, 45, 44, 1);
-			font-size: 16px;">Instagram</p>
+			color: #2B2D2C;
+			font-size: 16px;"
+			>
+				Instagram
+			</p>
 			<p class="link">Say hello! <a>grafiits@gmail.com</a></p>
 		</div>
-		<div><p style="
-			font-style: normal;
+		<div>
+			<p
+				style="
 			font-weight: 400;
-			color: rgba(43, 45, 44, 1);
-			font-size: 16px; margin-right: 32px">2024</p></div>
+			color: #2B2D2C;
+			font-size: 16px; margin-right: 32px"
+			>
+				2024
+			</p>
+		</div>
 	</div>
 </div>
 

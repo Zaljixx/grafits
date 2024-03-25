@@ -21,12 +21,12 @@
 .header {
     display: flex;
     justify-content: space-between;
-    border-bottom: 3px solid black;
+    border-bottom: 1px solid black;
 }
 
 .main-content {
+  position: relative;
   display: flex;
-  border-bottom: 3px solid black;
   &__text {
     display: flex;
     margin-left: 32px;
@@ -40,7 +40,13 @@
 
   @media screen and (min-width: 1920px) {
     &__logo {
-      height: 87vh; /* Height for screens above 1920px width */
+      height: 85vh; /* Height for screens above 1920px width */
+    }
+  }
+
+  @media screen and (min-width: 2560px) {
+    &__logo {
+      height: 89vh; /* Height for screens above 1920px width */
     }
   }
 }
